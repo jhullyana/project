@@ -12,7 +12,9 @@ public class Participante {
         this.telefone = telefone;
     }
 
-    // Getters e Setters omitidos para brevidade
+    // Getters e Setters 
+
+    
 
     @Override
     public String toString() {
@@ -24,4 +26,3 @@ public class Participante {
                 '}';
     }
 }
-

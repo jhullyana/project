@@ -2,6 +2,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Evento {
 
     private int id;
@@ -18,11 +19,16 @@ public class Evento {
         this.participantes = new ArrayList<>();
     }
 
-    // Getters e Setters omitidos para brevidade
+    // Getters e Setters
 
     public void adicionarParticipante(Participante participante) {
         participantes.add(participante);
     }
+
+    public void setParticipantes(List<Participante> participantes) {
+        this.participantes = participantes;
+    }
+
 
     public List<Participante> getParticipantes() {
         return participantes;
